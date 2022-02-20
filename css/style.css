@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0%;
+    box-sizing: content-box;
+    position: relative;
+}
+.mainin{
+    display: flex;
+    height: 1000px;
+}
+.operate{
+    background-color: #eef6fb;
+    width: 40% ;
+    height: 100%;
+    margin:0;
+}
+.my-message{
+    width: 9%;
+    background-color: #eef6fb;
+    height: 30%;
+    margin-left:10px ;
+}
+.left{
+    height: 20%;
+    width: 30%;
+    margin: 0;
+
+}
+.right{
+    height: 20%;
+    width: 20%;
+}
+
+.info>h3{
+    height: 50px;
+    line-height: 50px;
+}
+
+.operate>h3{
+    height: 50px;
+    line-height: 50px;
+}
+
+.wrap{
+    position: relative;
+}
+
+#img::after{
+    content: "";
+    background: url(./img/edit-2-outline.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+
+}
+
+input[type="text"],textarea{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#postTime{
+    display: none;
+}
+input[type="button"]{
+    width: 100%;
+    height: 25px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: #efdfa3;
+    text-align: center;
+}
+input[type="button"]:hover{
+    background: #fff;
+    color: #efdfa3;
+}
+input[type="reset"]{
+    display: none;
+}
+.textarea{
+    background-origin: 1px;
+}
