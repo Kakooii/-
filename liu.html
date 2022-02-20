@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    <script type="text/javascript" src="javaScript/js.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="info">
+            <img src="img/top.png">
+        </div>
+    <div class="mainin">
+
+        <div class="left">
+            <img src="img/右.png">
+        </div>
+        <div class="operate">
+            <img src="img/悄悄话.png" width="100%">
+        <form action="" method="post">
+        <div class="wrap">
+            <span id="img"></span>
+            <textarea id="text" name="text" cols="100" rows="10"   placeholder="我想悄悄说……" required></textarea>
+        </div>
+            <input type="text" id="postTime" name="postTime" value=""/>
+            <input type="button" id="send" value="发送" onclick="insertHandler();">
+            <input type="reset" id="reset">
+        </form>
+        </div>
+        <div class="my-message">
+            <img src="img/头像框.png">
+        </hr>
+            <input type="button" id="my-name" value="我的名字" onclick="insertHandler();">
+    </hr>
+            <input type="button" id="my-collect" value="我的收藏"  onclick="insertHandler();">
+</hr>
+            <input type="button" id="my-favor" value="收到的赞"  onclick="insertHandler();">
+        </div>
+        <div class="right">
+            <img src="img/左.png">
+        </div>
+    </div>
+
+</body>
+</html>
